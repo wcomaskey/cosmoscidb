@@ -1,0 +1,18 @@
+Package: cosmoscidb
+Title: Implements Clustering and Halo analysis orientated algorithms within
+    SciDB
+Version: 0.1
+Authors@R: "William Comaskey <williamcomaskey@gmail.com> [aut, cre]"
+Description: This Package implements various functions and algorithms used for
+    the analysis of Clustering and Large-Scale structure within cosmology. This
+    package aims to allow users to have an interface capable of storing and
+    analyzing their Observational and Simulated Cosmological data-sets. SciDB
+    is capable of performing parallel computations on arrays within its
+    database and allows for parallel loading of massive amounts of data.
+    Supported by Lawrence Berkeley National Lab: Computational Cosmology Center
+    and The Department of Energy
+Depends:
+    R (>= 3.1.1),
+    scidb
+License: Public Access
+LazyData: true

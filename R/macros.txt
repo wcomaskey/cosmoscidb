@@ -1,0 +1,5 @@
+/** Return the Euclidean distance between the two points (x1,y1,z1) and (x2,y2,z2). * **/
+dist(x,y,z,x_2,y_2,z_2) = sqrt(sq(x_2-x) + sq(y_2-y)+sq(z_2-z)) where
+{
+    sq(x) = x * x;   -- the square of the scalar "x"
+}
